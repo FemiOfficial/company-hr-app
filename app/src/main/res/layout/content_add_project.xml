@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alayesanmifemi.companyapp.AddProjectActivity"
+    tools:showIn="@layout/activity_add_project">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/project_add_name"
+        android:layout_height="wrap_content"
+        android:hint="Project Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/project_add_location"
+        android:layout_height="wrap_content"
+        android:hint="Location"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/project_add_status"
+        android:layout_height="wrap_content"
+        android:hint="Status (Completed or Uncompleted)"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/project_add_start"
+        android:layout_height="wrap_content"
+        android:hint="Start Date (format: 26/01/2019)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/project_add_finish"
+        android:layout_height="wrap_content"
+        android:hint="Finish Date (format: 26/01/2019)"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/add_project_btn"
+        android:text="Add Project"/>
+</LinearLayout>
